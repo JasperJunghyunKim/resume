@@ -49,6 +49,27 @@
         color: var(--black);
         line-height: 1;
       }
+      .name-row {
+        display: flex;
+        align-items: baseline;
+        gap: 8pt;
+      }
+      .photo-link {
+        display: inline-block;
+        font-family: "Open Sans", sans-serif;
+        font-size: 8pt;
+        font-weight: 700;
+        color: var(--blue);
+        text-decoration: none;
+        border: 1px solid var(--blue);
+        border-radius: 10pt;
+        padding: 2pt 6pt;
+        line-height: 1;
+        transform: translateY(-1.5pt);
+      }
+      .photo-link:hover {
+        background-color: rgba(32, 121, 199, 0.08);
+      }
       .header-right {
         width: 171pt;
         font-family: "Open Sans", sans-serif;
@@ -145,7 +166,10 @@
       <header class="header">
         <div class="header-left">
           <h1 class="name-ko">&#44608;&#51221;&#54788;</h1>
-          <div class="name-en">Junghyun Jasper Kim</div>
+          <div class="name-row">
+            <div class="name-en">Junghyun Jasper Kim</div>
+            <a class="photo-link" href="photo.jpg" target="_blank" rel="noopener">Photo</a>
+          </div>
         </div>
         <div class="header-right">
           <p class="contact-line">
@@ -383,7 +407,7 @@
               <p class="item-body">
                 &#50669;&#54624; : &#49436;&#48708;&#49828; &#44060;&#48156;
                 &#52509;&#44292; (DB &#49444;&#44228; / &#44592;&#54925; /
-                &#48177;&#50644;&#46300; &#44060;&#48156;)
+                &#48177;&#50644;&#46300; &#44060;&#48156;), 경영
               </p>
               <p class="item-body">
                 &#51228;&#51312; &#54788;&#51109;&#50640;&#49436;
